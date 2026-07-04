@@ -1,6 +1,6 @@
 # Git Workflow
 
-**Version:** 0.1.0  
+**Version:** 0.1.1  
 **Status:** Approved  
 **Last Updated:** 2026-07-04  
 **Owner:** Human QA Lead
@@ -295,8 +295,26 @@ The Git workflow follows these principles:
 
 ---
 
+# Responsibilities
+
+## Human QA Lead
+
+- Creates sprint branches.
+- Approves Pull Requests.
+- Merges sprint branches into `main`.
+- Creates project releases.
+
+## AI Contributors
+
+- Work only within task branches.
+- Never modify protected branches directly.
+- Follow the review process before requesting a merge.
+
+---
+
 # Document History
 
 | Version  | Date       | Author        | Summary 
 |----------|------------|---------------|--------------------------
 | 0.1.0    | 2026-07-04 | Human QA Lead | Initial approved version.
+| 0.1.1    | 2026-07-04 | Human QA Lead | Responsibilities section added.
